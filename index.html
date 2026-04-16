@@ -158,9 +158,9 @@
                 scene.background = tex; 
             });
 
-            // Road: image/1.png
+            // Road: image/4.png
             const roadMat = new THREE.MeshStandardMaterial({ roughness: 0.8, metalness: 0.1 }); // Less reflective, more realistic road
-            texLoader.load('image/1.png', (tex) => {
+            texLoader.load('image/4.png', (tex) => {
                 tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
                 tex.repeat.set(1, 2500); 
                 tex.colorSpace = THREE.SRGBColorSpace; // Fixes dark texture
